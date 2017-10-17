@@ -1,8 +1,8 @@
 # CS510 CW 7
 
-**Author(s):** **CHANGME**
+**Author(s):** **Ehsan Yaghmei, Sharon Kim**
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-07-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-07-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-07-ehsan_sharon.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-07-ehsan_sharon)
 
 ## Specification
 
@@ -33,7 +33,7 @@
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**The classwork introduced me to the power of matplotlib. Through matplotlib and setting up show(self) correctly, we were able to plot the complex plane with varying c values. Viewing a set of points in 2D to 3D is extremely useful in understanding what the julia function is doing to a complex plane.**
 
 ## Honor Pledge
 
@@ -44,4 +44,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Ehsan Yaghmei, Sharon Kim**
