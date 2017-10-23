@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from cplane_np import ArrayComplexPlane
+import matplotlib.pyplot as plt
 
 def julia(c, max=100):
     """Create a function that takes a complex parameter
@@ -95,6 +96,15 @@ class JuliaPlane(ArrayComplexPlane):
         self.fs = []
         super(JuliaPlane, self).__init__(self.xmin, self.xmax, self.xlen, self.ymin, self.ymax, self.ylen)
         self.plane = self.plane.applymap(julia(c))
+        
+    def show(self):
+        '''This will plot an image of the complex plane after it has
+        been transformed by the julia function.
+        '''
+
+        plt.imshow(self.plane, cmap = 'hot', interpolation='bicubic', extent=(self.xmin, self.xmax, self.ymin, self.ymax))
+        plt.title("c = " + str(self.c))
+        plt.show()
             
     def toCSV(self, filename):
         """Exports the transformed plane of integers to a .csv file.
